@@ -50,7 +50,7 @@ video {
 // ==================================== */
 
 .section {
-  margin: 30px;
+
   padding: 10px 0;
   background: #EBEAD2;
   display: flex;
@@ -90,10 +90,14 @@ video {
 
 .section-4 {
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .section-4 .box {
-  width: 50%;
-  align-content: stretch;
-  margin: 30px;
+  width: calc(50% - 15px);
+}
+
+.section-5 {
+  align-items: baseline;
+  justify-content: flex-end;
 }
