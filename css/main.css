@@ -101,3 +101,7 @@ video {
   align-items: baseline;
   justify-content: flex-end;
 }
+
+.section-5 .box-high {
+  padding: 30px 10px;
+}
